@@ -4,7 +4,7 @@
 # In[2]:
 
 from hdfs import *
-client = Client("http://192.168.1.151:50070")
+client = Client("http://*****")
 
 
 company_list = client.list("/edgarfiledata")
